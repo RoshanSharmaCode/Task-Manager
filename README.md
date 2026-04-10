@@ -18,7 +18,6 @@ A simple Task Manager API built using Node.js, Express, and MongoDB that support
 
 * **Backend:** Node.js, Express.js
 * **Database:** MongoDB (Mongoose)
-* **Environment:** dotenv
 * **Testing/API Tool:** Postman
 
 ---
@@ -33,7 +32,7 @@ A simple Task Manager API built using Node.js, Express, and MongoDB that support
   ```
 
 ### 3. Setup environment variables
-  Create a .env file in the root and add your MongoDB connection string:
+  Create a ```.env``` file in the root and add your MongoDB connection string:
   ```
   MONGO_URI=your_mongodb_connection_string
   PORT=5000
